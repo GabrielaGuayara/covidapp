@@ -1,0 +1,19 @@
+
+.App {
+  text-align: center;
+  /* background: #E4D3CF;
+  width: 100vw;
+  height: 100vh; */
+  font-family: 'Roboto Slab', serif;
+  /* background-color: wheat; */
+  background: #E4D3CF;
+  font-family: 'Roboto Slab', serif;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 0.4fr 1fr;
+  grid-template-rows: 50px 1fr;
+  color:#4e4e3f;
+  text-align: center;
+}
+

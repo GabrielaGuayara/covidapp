@@ -1,0 +1,108 @@
+.App{
+    background: #E4D3CF;
+    font-family: 'Roboto Slab', serif;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    grid-template-rows: 50px 1fr;
+    color:#4e4e3f;
+    text-align: center;
+}
+
+.country_info{
+margin-top: 50px;
+margin-left: 30px;
+display: flex;
+flex-direction: column;
+}
+#map{
+height: 100%;
+width: 80%;
+margin-top: 25px;
+position: relative;
+left: 60px;
+
+}
+h3{
+    font-size: 25px;
+    color: rgb(90, 20, 43);
+}
+.inp_country{
+    margin: 15px;
+    width: 60%;
+
+}
+#btn2{
+    width: 18%;
+    background: rgb(112, 218, 207);
+    font-weight: bold;
+}
+#btn2:hover{
+    background: rgb(20, 131, 120);
+}
+#btn1{
+    width: 40%;
+    margin-left: 100px;
+    background: rgb(112, 218, 207);
+    font-weight: bold;
+}
+#btn1:hover{
+    background: rgb(20, 131, 120);
+}
+.li_data{
+    list-style: none;
+}
+#details{
+    background-color: rgba(240, 255, 240, 0.719);
+    color: rgb(13, 0, 128);
+    height: 100px;
+    width: 150px;
+    opacity: 0;
+  }
+  
+  #details:hover{
+    opacity: 1;
+   
+  }
+  .locationicon{
+    color: rgb(230, 60, 30);
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+  }
+
+ .li_mark{
+    list-style-type: none;
+    position: relative;
+    right: 15px;
+    font-weight: bold;
+ }
+ h6{
+     font-size: 12px;
+     margin: 0px;
+ }
+ .mark_info{
+    margin-left: 0px;
+ }
+  
+@media screen and (max-width: 1150px) {
+    
+    #btn2{
+        width: 23%;
+    }
+}
+@media screen and (max-width: 875px) {
+    
+    #btn2{
+        width: 40%;
+    }
+    #btn1{
+        width: 40%;
+        margin-left: 60px;
+        margin-top: 10px;
+    }
+    li{
+        font-size: 15px;
+    }
+}
